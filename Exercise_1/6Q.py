@@ -12,7 +12,10 @@ while True:
     except: 
         print("Invalid Integer")
 
-pos_nos = [num for num in list_Of_Numbers if (num % 3) > 0]
+pos_nos = [num for num in list_Of_Numbers if (num % 3) == 0]
+pos_nos2 = [num for num in pos_nos if num > 0]
+
+sum = sum(pos_nos2)
          
 #print(list_Of_Numbers) 
-print("Positive numbers in the list", *pos_nos)
+print("Positive numbers in the list", sum)
