@@ -13,6 +13,8 @@ while True:
         print("Invalid Integer")
 
 neg_nos = [num for num in list_Of_Numbers if num < 0]
+
+total = len(neg_nos)
          
 #print(list_Of_Numbers) 
-print("Negative numbers in the list", *neg_nos)
+print("Negative numbers in the list", total)
