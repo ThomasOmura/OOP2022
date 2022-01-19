@@ -1,3 +1,7 @@
+# File name: 2Q.py
+# Author: Thomás Rizzi Omura
+# Description: After writing 10 numbers, transform those numbers in a list.
+
 # creating an empty list
 lst = []
 

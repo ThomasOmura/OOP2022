@@ -1,3 +1,7 @@
+# File name: 8Q.py
+# Author: Thomás Rizzi Omura
+# Description: Rock-Paper-Scissors game
+
 import random
 
 while True:

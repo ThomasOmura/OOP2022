@@ -1,3 +1,7 @@
+# File name: 9Q.py
+# Author: Thomás Rizzi Omura
+# Description: A program which repeatedly reads integers until the user enters 0 (NEGATIVE NUMBERS)
+
 list_Of_Numbers=[] 
 num=None 
 print("Enter '0' to stop the program") 

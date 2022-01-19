@@ -1,3 +1,7 @@
+# File name: 2QB.py
+# Author: Thomás Rizzi Omura
+# Description: After writing 10 names, transform those names in a list.
+
 # creating an empty list
 lst = []
 

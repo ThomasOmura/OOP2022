@@ -1,3 +1,7 @@
+# File name: 5Q.py
+# Author: Thomás Rizzi Omura
+# Description: Function that counts the number of even integers
+
 list_Of_Numbers=[] 
 num=None 
 print("Enter '0' to stop the program") 

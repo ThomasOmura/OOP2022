@@ -1,3 +1,7 @@
+# File name: 6Q.py
+# Author: Thomás Rizzi Omura
+# Description: funcation that counts the sum of the positive integers divisible by three
+
 list_Of_Numbers=[] 
 num=None 
 print("Enter '0' to stop the program") 

@@ -1,3 +1,7 @@
+# File name: 7Q.py
+# Author: Thomás Rizzi Omura
+# Description: 
+
 a = int(input("Please Enter First Number of an A.P Series: : "))
 n = int(input("Please Enter the Total Numbers in this A.P Series: : "))
 d = int(input("Please Enter the Common Difference : "))
