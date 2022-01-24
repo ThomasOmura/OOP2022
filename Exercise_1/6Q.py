@@ -22,4 +22,4 @@ pos_nos2 = [num for num in pos_nos if num > 0]
 sum = sum(pos_nos2)
          
 #print(list_Of_Numbers) 
-print("Positive numbers in the list", sum)
+print("PSum of positive divisible by three is:", sum)

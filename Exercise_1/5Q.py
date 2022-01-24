@@ -17,6 +17,7 @@ while True:
         print("Invalid Integer")
 
 even_nos = [num for num in list_Of_Numbers if (num % 2) == 0]
+
          
 #print(list_Of_Numbers) 
 print("Even numbers in the list", *even_nos)

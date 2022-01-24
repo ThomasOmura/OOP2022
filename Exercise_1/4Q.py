@@ -8,7 +8,7 @@ print("Enter '0' to stop the program")
 while True: 
     print("Enter Integer Number") 
     num=input() 
-    if(num=="0"): 
+    if(num=="0"): # If num = 0 the code will break
         break 
     try: 
         num=int(num) 
@@ -16,9 +16,9 @@ while True:
     except: 
         print("Invalid Integer")
 
-neg_nos = [num for num in list_Of_Numbers if num < 0]
+neg_nos = [num for num in list_Of_Numbers if num < 0] # Identifying the negative integers
 
-total = len(neg_nos)
+total = len(neg_nos) # The lengt of the negative integers
          
 #print(list_Of_Numbers) 
 print("Negative numbers in the list", total)
