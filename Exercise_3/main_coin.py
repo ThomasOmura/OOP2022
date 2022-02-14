@@ -3,13 +3,13 @@
 # Description:  Main function for coin 
 
 from locale import currency
-import coin
+import Coin
 
 # Main function definition
 
 def main():
 
-    my_coin = coin.Coin("Tails", "Silver", "Dollar")
+    my_coin = Coin.coin("Tails", "Silver", "Dollar")
 
     print("This side is up:", my_coin.get_sideup())
 
